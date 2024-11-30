@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+body {
+    width: 100%;
+}
+
+.navbar {
+    z-index: 1;
+    letter-spacing: 5px;
+    box-shadow: 0 5px 10px rgb(201, 201, 201);
+    width: 100%;
+}
+
+.navbar-brand {
+    width: 80%;
+}
+
+.navbar .container-fluid {
+    width: 100%;
+}
+
+.navbar-brand:hover,
+.nav-item:hover {
+    background-color: rgb(220, 220, 220);
+}
+
+.architect {
+    width: 100%;
+}
+
+.banner-section div {
+    width: 100%;
+    justify-content: center;
+}
+
+.banner-section h1 {
+    letter-spacing: 5px;
+    text-shadow: 5px 5px 5px #000000;
+}
+
+.banner-section h1 span {
+    opacity: 0.9;
+    letter-spacing: 0px;
+    text-shadow: none;
+}
+
+#project,
+#about,
+#contact {
+    box-sizing: border-box;
+    width: 96%;
+    margin: 0 2%;
+    padding: 1% 0;
+    scroll-margin-top: 50px;
+}
+
+.col-3 img {
+    width: 100%;
+}
+
+#project .col-3 p {
+    padding: 2% 4%;
+}
+
+.about .col-3 img {
+    filter: brightness(70%) contrast(100%) grayscale(70%);
+}
+
+.introduction .btn {
+    width: 100%;
+    padding: 1% auto;
+    background-color: rgb(240, 240, 240);
+}
+
+.contact-section input {
+    font-size: 110%;
+    margin: 1% 0;
+}
+
+#banner {
+    width: 100%;
+}
+
+.map {
+    width: 100%;
+}
+
+footer {
+    padding: 2%;
+}
+
+@media screen and (max-width:1200px) {
+    #project,
+    #about,
+    #contact {
+        scroll-margin-top: 50px;
+    }
+
+    .row {
+        display: flex !important;
+        flex-direction: column !important;
+        /* Xếp các phần tử theo cột */
+    }
+
+    .col-3 {
+        width: 100%;
+        margin-bottom: 1%;
+    }
+
+    .navbar-collapse {
+        margin-top: 1%;
+    }
+}
